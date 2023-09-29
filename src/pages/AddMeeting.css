@@ -1,0 +1,67 @@
+.AddMeeting-Container{
+    font-family: inter;
+    width: 22rem;
+    margin: 2rem auto;
+    text-align: left;
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 0.4rem;
+    padding: 1rem;
+    box-shadow: 0.5px 4px 16px rgb(236, 236, 236);
+}
+.AddMeeting-Container h2{
+    font-weight: 600;
+}
+.InputField{
+    width: 100%;
+    padding: 0.6rem 0.6rem;
+    border: 1px solid lightgray;
+    border-radius: 0.6rem;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none; 
+}
+.InputField:hover{
+    outline: 1px solid rgb(162, 75, 243);
+}
+.btn{
+    padding: 0.5rem ;
+    font-size: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 6px rgb(46, 46, 46);
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+}
+.btn:hover{
+    background-color: rgb(71, 71, 71);
+    color: rgb(245, 244, 244);
+}
+.loader {
+    width: 36px;
+    height: 36px;
+    border: 4px solid #666666;
+    border-bottom-color: #ecedee;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin-left: 4rem;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+    .load{
+        display: flex;
+    }
+    .d-none{
+        display: none;
+    }

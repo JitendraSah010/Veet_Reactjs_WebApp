@@ -1,0 +1,22 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;900&display=swap');
+
+.nav-container{
+    width: 56rem;
+    /* width: 66rem;               This  width is for card UI                     */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+.links{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    margin: 0rem 0.8rem;
+}
+.links:hover{
+    color:tomato;
+}
+.logo{
+    font-family: 'Inter', sans-serif;
+}

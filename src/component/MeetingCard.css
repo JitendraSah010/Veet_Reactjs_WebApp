@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;900&display=swap');
+
+/*
+.Meeting-card{
+    font-family: inter;
+    width: 17rem;
+    text-align: left;
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 0.4rem;
+    padding: 1rem;
+    box-shadow: 0.5px 4px 16px rgb(236, 236, 236);
+    font-family: inter;
+    margin: 1rem;
+}
+.meeting-img{
+    width: 100%;
+    border-radius: 0.6rem;
+}
+.meeting-btn{
+    padding: 0.5rem ;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(134, 164, 228);
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 6px rgb(46, 46, 46);
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+}
+.meeting-btn:hover{
+    background-color: rgb(74, 109, 207);
+    color: rgb(245, 244, 244);
+}
+*/
+
+
+/* Modified Card UI */
+.Meeting-card1{
+    font-family: inter;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 0.6rem;
+    padding: 0rem 1rem;
+    box-shadow: 0.5px 4px 16px rgb(236, 236, 236);
+    font-family: inter;
+    display: flex;
+    margin: 0.6rem;
+}
+.content-flex{
+    width: 50rem;
+}
+.img-flex{
+    width: 40rem;
+    margin: auto;
+}
+.meeting-img1{
+    width: 100%;
+    border-radius: 0.6rem;
+}
+.meeting-btn1{
+    padding: 0.5rem ;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 6px rgb(46, 46, 46);
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.meeting-btn1:hover{
+    background-color: rgb(139, 160, 218);
+    color: rgb(245, 244, 244);
+}
+.date{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 0.6rem;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-top: -0.4rem;
+}
+.meeting-desc1{
+    font-size: 1rem;
+    margin-top: 0.6rem;
+}
